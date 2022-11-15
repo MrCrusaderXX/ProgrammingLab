@@ -1,0 +1,31 @@
+print er includere dentro la stringa che stampo delle variabili uso:
+>>  print('valore 1:{}, valore2 :{}' .format(my_var_1, my_var_2))
+
+variabili vuote si definiscono con "None"  NB:python è case-sensitive
+
+slicing delle stringe:
+>>  mia_stringa[0:50]    #dal primo al cinquantesimo carattere
+>>  mia_stringa[0:-1]    #dal primo al penultimo
+
+eksponenciranje "**"
+
+si può fare:
+>>  if 'marco' in my_list //è un poerazione di verifica
+
+si possono fare i dizionari, associamo a chiavi i valori    NB: i dizionari non sono ordinati
+il + è che non serve sapere la posizione dei dati nella lista (basta conoscere la chiave)
+>>  my_dict = {'Trieste' : 34100, ... }  #dizionario dei numeri
+>>  print('CAP di Trieste' .format(my_dict['Trieste']))
+>>  if 'Trieste' in my_dict ...
+
+le funzioni hanno sempre un solo output
+
+le funzioni si chiamano con "def"
+>>  def mia_funzione(argomento1, argimento2):
+        ...
+        return ...
+
+possiamo inportare moduli per funzioni ch enon sono build-in
+>>  >>>inport math
+    >>>math.sqrt(600)
+    24.49489...
