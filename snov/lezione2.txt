@@ -10,7 +10,7 @@ slicing delle stringe:
 eksponenciranje "**"
 
 si può fare:
->>  if 'marco' in my_list //è un poerazione di verifica
+>>  if 'marco' in my_list //è un oerazione di verifica
 
 si possono fare i dizionari, associamo a chiavi i valori    NB: i dizionari non sono ordinati
 il + è che non serve sapere la posizione dei dati nella lista (basta conoscere la chiave)

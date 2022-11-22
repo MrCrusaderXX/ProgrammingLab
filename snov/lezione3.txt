@@ -1,0 +1,28 @@
+file csv (coma separateed values)
+csv e composto da TESTATA (OPTIONAL) e consecutivi valori separati da virgola (file di testo)
+
+
+per arire file in python: (btw assumiamo che il file è nella srtessa cartella)
+
+my_file = open('shampoo sales','r')  //'r' is for read only, 'rw' is for read and write
+print(my_file.read())                //stampo a schermo con print
+my_file.close()
+
+
+print(my_file.read()[0:50])          //possiamo fare lo slicing
+
+
+possiamo leggere una riga alla volta con:
+
+print(my_file.readline())
+
+
+il comando .split divide una stringa su un specifico carattere
+
+
+mia_sringa = '5.5'
+mio_numero = float(mia_stringa)      //questo trasforma il valore di una stringa a un valore numerico
+
+
+mia_sringa = [1,2,3]
+mia_stringa.append(4)
