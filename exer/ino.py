@@ -6,5 +6,5 @@ somma=0
 for line in file:
     diddums=line.split(',')
     if diddums[0] != 'Date':
-        somma+=yes[1]
+        somma+=diddums[1]
 return somma
