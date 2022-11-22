@@ -1,6 +1,7 @@
 def sum_csv(file_name):
-    values = []
 
+    sum=0.0
+    
     my_file = open(file_name, 'r')
     if my_file == 0:
         return None
@@ -8,5 +9,10 @@ def sum_csv(file_name):
     for line in my_file:
         elements = line.split(',')
         if elements[0] != 'Date':
-            values.append(value)
-    return values
+            value=elements[1]
+            sum+=float(value)
+    return sum
+
+
+
+print(sum_csv('table.csv'))
