@@ -6,8 +6,7 @@ class FileCSV():
         list = []
         file = open(self.name, 'r')
         for line in file:
-            if (file == 0):
-                return None
-            elements = line.split(',')
+            elements = line.strip()
+            elements = elements.split(',')
             list.append(elements)
         return list

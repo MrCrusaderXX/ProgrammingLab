@@ -1,0 +1,3 @@
+
+sd=FileCSV('table.csv')
+print(sd.get_data())
