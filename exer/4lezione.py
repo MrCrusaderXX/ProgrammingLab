@@ -4,9 +4,9 @@ class FileCSV():
         
     def get_data(self):
         list = []
-        file = open(self.name, 'r')
+        file = open(format(self.name), 'r')
         for line in file:
             elements = line.strip()
             elements = elements.split(',')
             list.append(elements)
-        return list
+    return list
