@@ -108,11 +108,3 @@ def compute_daily_max_difference(list):
         fine_g+=86400
         
     return risultati
-
-
-time_series_file = CSVTimeSeriesFile(name='ddd.csv')
-
-
-time_series = time_series_file.get_data()
-
-print(compute_daily_max_difference(time_series))
