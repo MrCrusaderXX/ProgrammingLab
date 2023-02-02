@@ -1,4 +1,4 @@
-class FileCSV():
+class CSVFile():
     def __init__(self, name):
         self.name = name
         
@@ -9,4 +9,4 @@ class FileCSV():
             elements = line.strip()
             elements = elements.split(',')
             list.append(elements)
-    return list
+        return list
